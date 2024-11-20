@@ -1,4 +1,4 @@
-FROM ghcr.io/azicen/desktop:latest
+FROM gua12345/docker_novnc:latest
 
 ENV TITLE="Clash Verge"
 
