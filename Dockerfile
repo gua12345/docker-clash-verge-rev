@@ -1,5 +1,8 @@
 FROM gua12345/docker_novnc:latest
 
+# 显式使用 root 用户，确保有足够的权限
+USER root
+
 ENV TITLE="Clash Verge"
 
 # 更新 apt 并安装必需的包
