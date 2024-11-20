@@ -19,7 +19,7 @@ docker run \
   -p "7897:7897" \
   -p "9097:9097" \
   -d \
-  ghcr.io/azicen/clash-verge-rev:latest
+  gua12345/docker_clash_vnc:latest
 ```
 
 ### 通过 docker-compose 部署
@@ -28,7 +28,7 @@ docker run \
 services:
   clash-verge-rev:
     container_name: clash-verge-rev
-    image: ghcr.io/azicen/clash-verge-rev:latest
+    image: gua12345/docker_clash_vnc:latest
     environment:
       TZ: Asia/Shanghai
       VNC_PORT: 5901
